@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/author"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/author"/>
+    
+    <item
+        android:id="@+id/alterEgo"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="@string/alter"/>
+    
+    <item
+        android:id="@+id/aboutContact"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/info"/>
+    
+    <item
+        android:id="@+id/superName"
+        android:orderInCategory="400"
+        android:showAsAction="never"
+        android:title="@string/superName"/>
+    
+    <item
+        android:id="@+id/aboutHeroes"
+        android:orderInCategory="500"
+        android:showAsAction="never"
+        android:title="@string/aboutHeroes"/>
+    
+    <item
+        android:id="@+id/rssFeed"
+        android:orderInCategory="600"
+        android:showAsAction="never"
+        android:title="@string/rss"/>
+    
+    <item
+        android:id="@+id/themeSongs"
+        android:orderInCategory="700"
+        android:showAsAction="never"
+        android:title="@string/themeSongs"/>
+    
+
+</menu>

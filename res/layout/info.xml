@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#263c51"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/ubermanImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/uberman2x" />
+
+    <ImageButton
+        android:id="@+id/phonebttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textImage"
+        android:layout_below="@+id/ubermanImage"
+        android:layout_marginTop="21dp"
+        android:background="@null"
+        android:src="@drawable/phone" />
+
+    <ImageButton
+        android:id="@+id/mailbttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ubermanImage"
+        android:layout_alignTop="@+id/phonebttn"
+        android:layout_marginLeft="12dp"
+        android:background="@null"
+        android:src="@drawable/mail" />
+
+    <ImageView
+        android:id="@+id/textImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ubermanImage"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="27dp"
+        android:layout_toLeftOf="@+id/ubermanImage"
+        android:src="@drawable/about" />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#263c51">
+    
+<TextView android:layout_width="fill_parent" 
+    android:text="Click to hear a theme play"
+	android:layout_height="wrap_content" 
+	android:textColor="#00bc99"
+	android:textStyle="bold" 
+	android:gravity="center"
+	android:layout_marginTop="28dp"
+	android:id="@+id/info"/>
+
+<Button
+    android:id="@+id/supermanbttn"
+    android:layout_width="305dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:background="@drawable/btn_cab_done_focused_uberhero"
+    android:text="Play Superman Theme"
+    android:layout_gravity="center"
+    android:textColor="#fff"
+    android:textStyle="bold" />
+
+<Button android:layout_width="305dp"
+    android:layout_height="wrap_content"
+    android:text="Play Batman Theme"
+    android:layout_gravity="center"
+    android:textColor="#fff"
+    android:textStyle="bold"
+    android:id="@+id/batmanbttn"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/btn_cab_done_focused_uberhero"/>
+
+<Button android:layout_width="305dp"
+    android:layout_height="wrap_content"
+    android:text="Play JL Theme"
+    android:textColor="#fff"
+    android:textStyle="bold"
+    android:id="@+id/jlbttn"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    android:background="@drawable/btn_cab_done_focused_uberhero"/>
+
+<Button android:layout_width="305dp"
+    android:layout_height="wrap_content"
+    android:text="Play JL America Theme"
+    android:textColor="#fff"
+    android:textStyle="bold"
+    android:id="@+id/JLAmbttn"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    android:background="@drawable/btn_cab_done_focused_uberhero"/>
+</LinearLayout>
