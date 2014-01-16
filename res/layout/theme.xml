@@ -37,7 +37,7 @@
 
 <Button android:layout_width="305dp"
     android:layout_height="wrap_content"
-    android:text="Play JL Theme"
+    android:text="Play Justice League Theme"
     android:textColor="#fff"
     android:textStyle="bold"
     android:id="@+id/jlbttn"
@@ -47,7 +47,7 @@
 
 <Button android:layout_width="305dp"
     android:layout_height="wrap_content"
-    android:text="Play JL America Theme"
+    android:text="Play Justice League Unlimited Theme"
     android:textColor="#fff"
     android:textStyle="bold"
     android:id="@+id/JLAmbttn"

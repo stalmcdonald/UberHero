@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" 
@@ -11,5 +11,13 @@
         android:layout_height="wrap_content"
         android:numColumns="3" >
     </GridView>
+    
+    <ImageView
+        android:id="@+id/googleAd"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/google_ads" />
 
-</LinearLayout>
+</RelativeLayout>
