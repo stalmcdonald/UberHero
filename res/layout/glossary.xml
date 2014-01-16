@@ -18,55 +18,24 @@
 	    android:text="@string/myscroll"
 	    android:textColor="#fff" />
 
-	<TextView
-	    android:id="@+id/gloss1"
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentLeft="true"
-	    android:layout_below="@+id/glossText"
-	    android:layout_marginTop="26dp"
-	    android:text="Aliens - different in nature or character"
-	    android:textColor="#fff" />
-
-	<TextView
-	    android:id="@+id/gloss2"
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentLeft="true"
-	    android:layout_below="@+id/gloss1"
-	    android:layout_marginTop="17dp"
-	    android:text="Alter Ego -	characters whose alter ego is not known to everyone"
-	    android:textColor="#fff" />
-
-	<TextView
-	    android:id="@+id/gloss3"
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentLeft="true"
-	    android:layout_below="@+id/gloss2"
-	    android:layout_marginTop="17dp"
-	    android:text="Archenemy - a principal enemy"
-	    android:textColor="#fff" />
-
+ <ScrollView
+    android:id="@+id/SCROLLER_ID"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+	
 	<TextView
 	    android:id="@+id/gloss5"
 	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
 	    android:layout_alignParentLeft="true"
 	    android:layout_below="@+id/gloss4"
 	    android:layout_marginTop="84dp"
-	    android:maxLines="10"
-	    android:text="@string/myscroll"
+	    android:text="@string/gloss"
 	    android:textColor="#fff" />
-
-	<TextView
-	    android:id="@+id/gloss4"
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentLeft="true"
-	    android:layout_below="@+id/gloss3"
-	    android:layout_marginTop="22dp"
-	    android:text="Extraterrestrial - coming from or existing outside the earth or its atmosphere"
-	    android:textColor="#fff" />
+	
+	</ScrollView>
 
 </RelativeLayout>

@@ -55,33 +55,31 @@ public final class R {
         public static final int uberman2x=0x7f020029;
     }
     public static final class id {
-        public static final int JLAmbttn=0x7f080011;
-        public static final int aboutContact=0x7f080014;
-        public static final int aboutHeroes=0x7f080016;
-        public static final int alterEgo=0x7f080013;
-        public static final int author=0x7f080012;
-        public static final int batmanbttn=0x7f08000f;
-        public static final int gloss1=0x7f080004;
-        public static final int gloss2=0x7f080005;
-        public static final int gloss3=0x7f080006;
-        public static final int gloss4=0x7f080007;
-        public static final int gloss5=0x7f080008;
+        public static final int JLAmbttn=0x7f08000f;
+        public static final int SCROLLER_ID=0x7f080004;
+        public static final int aboutContact=0x7f080012;
+        public static final int aboutHeroes=0x7f080014;
+        public static final int alterEgo=0x7f080011;
+        public static final int author=0x7f080010;
+        public static final int batmanbttn=0x7f08000d;
+        public static final int gloss4=0x7f080006;
+        public static final int gloss5=0x7f080005;
         public static final int glossText=0x7f080003;
-        public static final int glossary=0x7f080019;
+        public static final int glossary=0x7f080017;
         public static final int googleAd=0x7f080001;
         public static final int gridView1=0x7f080000;
-        public static final int info=0x7f08000d;
-        public static final int jlbttn=0x7f080010;
-        public static final int logo=0x7f08001a;
-        public static final int mailbttn=0x7f08000c;
-        public static final int phonebttn=0x7f08000a;
-        public static final int rssFeed=0x7f080017;
-        public static final int superName=0x7f080015;
-        public static final int supermanbttn=0x7f08000e;
-        public static final int textImage=0x7f08000b;
+        public static final int info=0x7f08000b;
+        public static final int jlbttn=0x7f08000e;
+        public static final int logo=0x7f080018;
+        public static final int mailbttn=0x7f08000a;
+        public static final int phonebttn=0x7f080008;
+        public static final int rssFeed=0x7f080015;
+        public static final int superName=0x7f080013;
+        public static final int supermanbttn=0x7f08000c;
+        public static final int textImage=0x7f080009;
         public static final int textView2=0x7f080002;
-        public static final int themeSongs=0x7f080018;
-        public static final int ubermanImage=0x7f080009;
+        public static final int themeSongs=0x7f080016;
+        public static final int ubermanImage=0x7f080007;
     }
     public static final class layout {
         public static final int abouthero=0x7f030000;
@@ -109,6 +107,7 @@ public final class R {
         public static final int app_name=0x7f050000;
         public static final int author=0x7f05000e;
         public static final int dictionary=0x7f05000d;
+        public static final int gloss=0x7f050010;
         public static final int hello_world=0x7f050001;
         public static final int info=0x7f050004;
         public static final int infos=0x7f050005;
