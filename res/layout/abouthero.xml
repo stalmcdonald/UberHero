@@ -5,12 +5,13 @@
     android:orientation="vertical" 
     android:background="#263c51">
 
-    <GridView
-        android:id="@+id/gridView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:numColumns="3" >
-    </GridView>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/gridplaceholder" />
     
     <ImageView
         android:id="@+id/googleAd"

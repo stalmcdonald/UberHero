@@ -71,7 +71,7 @@ public final class R {
         public static final int glossText=0x7f080003;
         public static final int glossary=0x7f080017;
         public static final int googleAd=0x7f080001;
-        public static final int gridView1=0x7f080000;
+        public static final int imageView1=0x7f080000;
         public static final int info=0x7f08000b;
         public static final int jlbttn=0x7f08000e;
         public static final int logo=0x7f080018;

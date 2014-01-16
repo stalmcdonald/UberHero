@@ -16,4 +16,12 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#00a083" />
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mainplaceholder" />
+
 </RelativeLayout>
