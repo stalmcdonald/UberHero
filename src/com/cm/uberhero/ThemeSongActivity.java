@@ -7,11 +7,13 @@ package com.cm.uberhero;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class ThemeSongActivity extends Activity {
 	
@@ -24,7 +26,7 @@ public class ThemeSongActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.theme);
-	
+
 		//set context
 		_context = this;
 		
@@ -34,6 +36,7 @@ public class ThemeSongActivity extends Activity {
 		mediaPlay = MediaPlayer.create( _context, R.raw.supermantheme);
 		//Set buttons
 		supermanTheme = (Button) findViewById(R.id.supermanbttn);
+		
 		supermanStart = "Play Superman Theme";
 		//start button 1 listener
 		supermanTheme.setOnClickListener(new OnClickListener(){
