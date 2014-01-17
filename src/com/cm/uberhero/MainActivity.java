@@ -1,3 +1,4 @@
+
 package com.cm.uberhero;
 
 import android.os.Bundle;
@@ -88,6 +89,19 @@ public class MainActivity extends Activity implements OnClickListener{
 				alterIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 				startActivity(alterIntent);
 				break;
+				
+			case R.id.glossary:
+				Intent glossaryIntent = new Intent(this, GlossaryActivity.class);
+				glossaryIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+				startActivity(glossaryIntent);
+				break;
+				
+			case R.id.logo:
+				Intent logoIntent = new Intent(this, LogosActivity.class);
+				logoIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+				startActivity(logoIntent);
+				break;
+				
 			}
 			return true;
 		}//end onOptionsItemSelected

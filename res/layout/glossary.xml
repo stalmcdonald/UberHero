@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#263c51">
+
+	<com.cm.uberhero.UHTextView
+	    android:id="@+id/glossText"
+	    android:layout_width="330dp"
+	    android:layout_height="20dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:ellipsize="marquee"
+	    android:marqueeRepeatLimit="10"
+	    android:scrollHorizontally="true"
+	    android:singleLine="true"
+	    android:text="@string/myscroll"
+	    android:textColor="#fff" />
+
+ <ScrollView
+    android:id="@+id/SCROLLER_ID"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+	
+	<com.cm.uberhero.UHTextView
+	    android:id="@+id/gloss5"
+	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/gloss4"
+	    android:layout_marginTop="84dp"
+	    android:text="@string/gloss"
+	    android:textColor="#fff" />
+	
+	</ScrollView>
+
+</RelativeLayout>

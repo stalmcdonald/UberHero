@@ -11,7 +11,41 @@
     <string name="supernames">What\'\s Your Superhero Name</string>
     <string name="quiz">Which Superhero are you?</string>
     <string name="rss">RSS Feed</string>
+    <string name="logo">Logo Evolution</string>
     <string name="aboutHeroes">About Heroes</string>
 	<string name="themeSongs">Theme Songs</string>
+	<string name="dictionary">Glossary</string>
 	<string name="author">About Author</string>
+	<string name ="myscroll">exceptional-but-not-superhuman fictional characters like Batman, Doc Savage and Green Arrow may be classified as superheroes although they do not have any actual superpowers, </string>
+	<string name="gloss">
+        					<strong>Alien</strong> - different in nature or character \r\n
+        					\r\n
+        					Alter Ego -	characters whose alter ego is not known to everyone, superhero secret identities are often considered alter egos \r\n
+        					\r\n
+        					Antagonist - a person or a group of people who oppose the main character(s) \r\n
+        					\r\n
+        					Archenemy - a principal enemy   \r\n
+        					\r\n
+        					Extraterrestrial - coming from or existing outside the earth or its atmosphere \r\n
+        					\r\n
+        					Fortress - any place of exceptional security; stronghold \r\n
+        					\r\n
+        					Henchmen - a lackey, always there to do the master\'s bidding \r\n
+        					\r\n\
+        					Lair - a secluded or hidden place, especially a secret retreat or base of operations; a hideout or hideaway \r\n
+        					\r\n
+        					Nemisis - an opponent or rival whom a person cannot best or overcome \r\n
+        					\r\n
+        					Protagonist - the main character, often the \"good guy\" \r\n\
+        					\r\n\
+        					Secret Identity - a character develops a separate persona  \r\n
+        					\r\n
+        					SideKick - assistants to crime-fighting heroes \r\n
+        					\r\n
+        					Superhero - character possessing extraordinary talents, supernatural phenomena, or superhuman powers and dedicated to protecting the public. \r\n\
+        					\r\n\
+        					Superpower - superhuman ability \r\n
+        					\r\n
+        					Villain - a character who tends to have a negative effect on other characters \r\n
+        					</string>
 </resources>
