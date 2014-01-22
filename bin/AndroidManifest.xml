@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cm.uberhero"
+    
     android:versionCode="1"
     android:versionName="1.0" >
+    
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -85,7 +87,58 @@
             android:label="@string/logo"
             android:screenOrientation="portrait"
             android:parentActivityName="MainActivity">
-        </activity>        
+        </activity>  
+        
+       
+    
+        <activity
+            android:name="com.cm.abouthero.AquamanActivity"
+            android:label="Aquaman"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+        <activity
+            android:name="com.cm.abouthero.BatmanActivity"
+            android:label="Batman"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity> 
+        
+        <activity
+            android:name="com.cm.abouthero.WonderWomanActivity"
+            android:label="Wonder Woman"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity> 
+        
+        <activity
+            android:name="com.cm.abouthero.SupermanActivity"
+            android:label="Superman"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity> 
+        
+        <activity
+            android:name="com.cm.abouthero.GreenLanternActivity"
+            android:label="Green Lantern"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+        <activity
+            android:name="com.cm.abouthero.FlashActivity"
+            android:label="The Flash"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.MartianMHActivity"
+            android:label="Martian Manhunter"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
         
     </application>
 

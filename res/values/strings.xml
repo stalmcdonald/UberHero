@@ -52,4 +52,17 @@
         					\r\n
         					Villain - a character who tends to have a negative effect on other characters \r\n
         					</string>
+    <string name="mh_ah">Advanced Telepathy, Telekenisis, Density Control, Regenerative Ability, Directed Energy Attacks, Strength, Endurance, Phase Shifting, Shape Size, Xray Vision, Forcefield Protection, Invisibility, Flight, Speed</string>
+	<string name="aq_ah">Super Strength, Durability, Control over Sea Life, Exceptional Swimming Ability, Water Breathing</string>
+	<string name="ah_alias">King of the 7 Seas, The \"Dweller in the Depths\", Aquatic Ace, Marine Marvel</string>
+	<string name="bm_ah">Exceptional Martial Arts and Combat Strategy Skills, Inexhaustible Wealth, Brillian Deductive Reasoning Skill, Advanced Technology </string>
+	<string name="bm_alias">Dark Knight, Caped Crusader</string>
+	<string name="ww_ah">Super Strength, Invunerability, Flight, Combat Skill and Strategy, Superhuman Agility, Healing Factor, Magic Weaponry </string>
+	<string name="ww_alias">Diane Prince, Amazon Princess</string>
+	<string name="sm_ah">Super Strength, Invunerability, Flight, Super Speed, Superhuman Hearing, Heat Vision, Healing Factor </string>
+	<string name="sm_alias">Clark Kent, Man of Steel</string>
+	<string name="gl_ah">Hard Light Constructs, Instant Weaponry, Force Fields, Flight, Durability, Alien Technology</string>
+	<string name="gl_alias">Alan Wellington Scott, Sentinel, The White King, Parallax, Spectre</string>
+	<string name="flash_ah">Superhuman Speed, Superhuman Agility, Intangibility, Cosmic Treadmill Time Travel</string>
+	<string name="flash_alias">Scarlet Speedster, The Fastest Man Alive</string>
 </resources>
