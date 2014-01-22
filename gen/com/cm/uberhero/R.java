@@ -77,19 +77,28 @@ public final class R {
         public static final int wonderwoman=0x7f02003f;
     }
     public static final class id {
-        public static final int JLAmbttn=0x7f080022;
-        public static final int SCROLLER_ID=0x7f080013;
-        public static final int aboutContact=0x7f080025;
-        public static final int aboutHeroes=0x7f080027;
-        public static final int alterEgo=0x7f080024;
-        public static final int answerText=0x7f08001e;
-        public static final int author=0x7f080023;
-        public static final int batmanbttn=0x7f080020;
-        public static final int et=0x7f08001c;
-        public static final int gloss4=0x7f080015;
-        public static final int gloss5=0x7f080014;
-        public static final int glossText=0x7f080012;
-        public static final int glossary=0x7f08002a;
+        public static final int JLAmbttn=0x7f080033;
+        public static final int SCROLLER_ID=0x7f080024;
+        public static final int aboutContact=0x7f080036;
+        public static final int aboutHeroes=0x7f080038;
+        public static final int alterEgo=0x7f080035;
+        public static final int answerText=0x7f08002f;
+        public static final int aquamanBttn=0x7f08001e;
+        public static final int author=0x7f080034;
+        public static final int batmanBttn=0x7f08001d;
+        public static final int batmanbttn=0x7f080031;
+        public static final int beastboyBttn=0x7f08001b;
+        public static final int cyborgBttn=0x7f08001c;
+        public static final int et=0x7f08002d;
+        public static final int flashBttn=0x7f080016;
+        public static final int gloss4=0x7f080026;
+        public static final int gloss5=0x7f080025;
+        public static final int glossText=0x7f080023;
+        public static final int glossary=0x7f08003b;
+        public static final int google=0x7f080022;
+        public static final int greenarrowBttn=0x7f080012;
+        public static final int greenlanternBttn=0x7f080013;
+        public static final int hawkgirlBttn=0x7f080019;
         public static final int imageView1=0x7f080000;
         public static final int imageView10=0x7f080009;
         public static final int imageView11=0x7f08000a;
@@ -107,20 +116,28 @@ public final class R {
         public static final int imageView7=0x7f080006;
         public static final int imageView8=0x7f080007;
         public static final int imageView9=0x7f080008;
-        public static final int info=0x7f08001a;
-        public static final int jlbttn=0x7f080021;
-        public static final int linearLayout1=0x7f08001b;
-        public static final int logo=0x7f08002b;
-        public static final int mailbttn=0x7f080019;
-        public static final int nameBttn=0x7f08001d;
-        public static final int phonebttn=0x7f080017;
-        public static final int rssFeed=0x7f080028;
-        public static final int superName=0x7f080026;
-        public static final int supermanbttn=0x7f08001f;
-        public static final int textImage=0x7f080018;
+        public static final int info=0x7f08002b;
+        public static final int jlbttn=0x7f080032;
+        public static final int linearLayout1=0x7f08002c;
+        public static final int logo=0x7f08003c;
+        public static final int mailbttn=0x7f08002a;
+        public static final int manhunterBttn=0x7f080015;
+        public static final int nameBttn=0x7f08002e;
+        public static final int nightwingBttn=0x7f080020;
+        public static final int phonebttn=0x7f080028;
+        public static final int ravenBttn=0x7f080021;
+        public static final int robinBttn=0x7f080017;
+        public static final int rssFeed=0x7f080039;
+        public static final int shazamBttn=0x7f08001f;
+        public static final int starfireBttn=0x7f08001a;
+        public static final int superName=0x7f080037;
+        public static final int supermanBttn=0x7f080014;
+        public static final int supermanbttn=0x7f080030;
+        public static final int textImage=0x7f080029;
         public static final int textView2=0x7f080011;
-        public static final int themeSongs=0x7f080029;
-        public static final int ubermanImage=0x7f080016;
+        public static final int themeSongs=0x7f08003a;
+        public static final int ubermanImage=0x7f080027;
+        public static final int wonderwomanBttn=0x7f080018;
     }
     public static final class layout {
         public static final int abouthero=0x7f030000;
@@ -164,10 +181,10 @@ public final class R {
         public static final int themeSongs=0x7f05000c;
     }
     public static final class style {
-        public static final int ActionBar_Solid_Uberhero=0x7f060003;
-        public static final int ActionBar_Transparent_Uberhero=0x7f060004;
-        public static final int ActionBarTabStyle_Uberhero=0x7f060007;
-        public static final int ActionButton_CloseMode_Uberhero=0x7f06000a;
+        public static final int ActionBar_Solid_Uberhero=0x7f060004;
+        public static final int ActionBar_Transparent_Uberhero=0x7f060005;
+        public static final int ActionBarTabStyle_Uberhero=0x7f060008;
+        public static final int ActionButton_CloseMode_Uberhero=0x7f06000b;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
@@ -194,13 +211,14 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
-        public static final int DropDownListView_Uberhero=0x7f060006;
-        public static final int DropDownNav_Uberhero=0x7f060008;
-        public static final int PopupMenu_Uberhero=0x7f060005;
-        public static final int ProgressBar_Uberhero=0x7f060009;
-        public static final int Theme_Uberhero=0x7f060002;
+        public static final int DropDownListView_Uberhero=0x7f060007;
+        public static final int DropDownNav_Uberhero=0x7f060009;
+        public static final int PopupMenu_Uberhero=0x7f060006;
+        public static final int ProgressBar_Uberhero=0x7f06000a;
+        public static final int Theme_Uberhero=0x7f060003;
         /**  this style is only referenced in a Light.DarkActionBar based theme 
          */
-        public static final int Theme_Uberhero_Widget=0x7f06000b;
+        public static final int Theme_Uberhero_Widget=0x7f06000c;
+        public static final int Theme_Dialog=0x7f060002;
     }
 }
