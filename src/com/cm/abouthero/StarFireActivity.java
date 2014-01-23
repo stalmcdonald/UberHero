@@ -1,5 +1,16 @@
 package com.cm.abouthero;
 
-public class StarFireActivity {
+import android.app.Activity;
+import android.os.Bundle;
+
+import com.cm.uberhero.R;
+
+public class StarFireActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.starfireah);
+	}
 
 }

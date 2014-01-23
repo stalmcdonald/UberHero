@@ -140,6 +140,69 @@
             android:parentActivityName="MainActivity">
         </activity>
         
+         <activity
+            android:name="com.cm.abouthero.BeastBoyActivity"
+            android:label="Beast Boy"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.CyborgActivity"
+            android:label="Cyborg"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.GreenArrowActivity"
+            android:label="Green Arrow"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.RobinActivity"
+            android:label="Robin"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.ShazamActivity"
+            android:label="Shazam"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.HawkgirlActivity"
+            android:label="Hawkgirl"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.StarFireActivity"
+            android:label="Hawkgirl"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.NightwingActivity"
+            android:label="Nightwing"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.abouthero.RavenActivity"
+            android:label="Raven"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
     </application>
 
 </manifest>

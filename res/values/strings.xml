@@ -65,4 +65,22 @@
 	<string name="gl_alias">Alan Wellington Scott, Sentinel, The White King, Parallax, Spectre</string>
 	<string name="flash_ah">Superhuman Speed, Superhuman Agility, Intangibility, Cosmic Treadmill Time Travel</string>
 	<string name="flash_alias">Scarlet Speedster, The Fastest Man Alive</string>
+	<string name="bb_ah">Transformation, Shapeshifts into any animal</string>
+	<string name="bb_alias">BB, Craig, Changeling</string>
+	<string name="cy_ah">High IQ, Integrated Advanced Weaponry, Shape Change, Superhuman Speed, Superhuman Strength, Superhuman Endurance, Superhuman Sight, Technopathy, Super Agility, Radar Sense, Communicate/Manipulate/Interface with most Technology</string>
+	<string name="cy_alias">Vic, Cyberion, Man Machine, Cy, Stone, Omega Drone, Corky</string>
+	<string name="ga_ah">Agility, Escape Artist, Trick Arrows, Tracking, Stealth</string>
+	<string name="ga_alias">Emerald Archer, The Dark Hunter, Robin Hood, The Hood, The Ace Archer</string>
+	<string name="rob_ah">Agility, Gadgets, Intellect, Weapon Master</string>
+	<string name="rob_alias">Boy Wonder, The Teen Wonder, Teenage Thunderbolt</string>
+	<string name="sha_ah">Agility, Blast Power, Flight, Hypnosis,Immortality, Teleportation, Tracking, Magic, Super Speed</string>
+	<string name="sha_alias">Captain Marvel, Lord Marvel</string>
+	<string name="hg_ah">Flight, Enhanced Strength, Healing Factor, Weapons Expert, Combat, Reincarnation</string>
+	<string name="hg_alias">Kendra Saunders, Sheira, Reincarnate Chay-era</string>
+	<string name="sf_ah">Flight, Agility, Blast Power, Combat Specialist, Invulnerability, Omni-lingual, Super Sight, Super Strength</string>
+	<string name="sf_alias">Princess, Queen</string>
+	<string name="nw_ah">Agility, Attractive Male, Escape Artist, Gadgets, Stealth, Unarmed Combat, Weapon Master</string>
+	<string name="nw_alias">Robin, The Worlds Greatest Acrobat, The Target, Robbie Malone, Renegade, The Boy Wonder</string>
+	<string name="rave_ah">Astral Projection, Precognition, Flight, Leviation, Phasing, Empathy, Teleportation, Telekinesis</string>
+	<string name="rave_alias">Daughter of Trigon, Evil Avatar, Dark Raven, Rachel Roth</string>
 </resources>
