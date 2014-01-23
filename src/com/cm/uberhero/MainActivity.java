@@ -73,7 +73,7 @@ public class MainActivity extends Activity implements OnClickListener{
 				break;
 				
 			case R.id.rssFeed:
-				Intent rssintent = new Intent(this, RssFeedActivity.class);
+				Intent rssintent = new Intent(this, com.cm.rss.RssFeedActivity.class);
 				rssintent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 				startActivity(rssintent);
 				break;
