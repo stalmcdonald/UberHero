@@ -1,7 +1,9 @@
 package com.cm.uberhero;
 
+
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -14,7 +16,7 @@ import android.widget.Toast;
 public class SuperNameActivity extends Activity implements OnClickListener{
 	EditText initials;
 	TextView answers;
-	 private Button b;
+	 private Button b, legendBttn;
 	protected Context Context;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +27,16 @@ public class SuperNameActivity extends Activity implements OnClickListener{
 		answers = (TextView)findViewById(R.id.answerText);
 		initials = (EditText)findViewById(R.id.et);
 		final Button b = (Button)findViewById(R.id.nameBttn);
+		final Button legendButton = (Button)findViewById(R.id.legendBttn);
 		
+		legendButton.setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View legend) {
+				Intent i = new Intent(getApplicationContext(), BatLegend.class);
+				startActivity(i); 
+		}
+		
+	 });
 		b.setOnClickListener(new OnClickListener(){
 
 			@Override

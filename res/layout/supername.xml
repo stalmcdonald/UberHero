@@ -54,5 +54,15 @@
         android:gravity="center"
         android:text="@string/answer" />
 
+    <Button
+        android:id="@+id/legendBttn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/btn_cab_done_pressed_uberhero"
+        android:text="Legend" />
+
     </RelativeLayout>
     

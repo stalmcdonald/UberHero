@@ -67,6 +67,13 @@
         </activity>
         
         <activity
+            android:name="com.cm.uberhero.BatLegend"
+            android:label="Bat Legend"
+            android:parentActivityName="MainActivity"
+            android:screenOrientation="portrait">  
+        </activity>
+        
+        <activity
             android:name="com.cm.uberhero.SuperNameActivity"
             android:label="@string/supernames"
             android:parentActivityName="MainActivity"
@@ -295,6 +302,47 @@
             android:parentActivityName="MainActivity">
         </activity>
          
+          <activity
+            android:name="com.cm.logo.GreenArrowVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.StarFireVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.BeastboyVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.RavenVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.ShazamVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.CyborgVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
         
     </application>
 
