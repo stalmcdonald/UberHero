@@ -105,7 +105,7 @@
         </activity>
         
         <activity
-            android:name="com.cm.uberhero.LogosActivity"
+            android:name="com.cm.logo.LogosActivity"
             android:label="@string/logo"
             android:screenOrientation="portrait"
             android:parentActivityName="MainActivity">
@@ -225,6 +225,75 @@
             android:parentActivityName="MainActivity">
         </activity>
         
+         <activity
+            android:name="com.cm.logo.BatVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.logo.AquamanVid"
+            android:label="Aquaman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.FlashVid"
+            android:label="Flash Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.HawkgirlVid"
+            android:label="Hawkgirl Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.MartianVid"
+            android:label="Martian Manhunter Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.NightwingVid"
+            android:label="Nightwing Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.SupermanVid"
+            android:label="Superman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.WonderwomanVid"
+            android:label="Wonder Woman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.GreenlanternVid"
+            android:label="Green Lantern Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.RobinVid"
+            android:label="Robin Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
          
         
     </application>

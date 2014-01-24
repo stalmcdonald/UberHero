@@ -1,6 +1,8 @@
 
 package com.cm.uberhero;
 
+import com.cm.logo.LogosActivity;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
