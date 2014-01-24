@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cm.uberhero"
+    
     android:versionCode="1"
     android:versionName="1.0" >
+    
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -12,6 +14,9 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
 
     <application
         android:allowBackup="true"
@@ -19,11 +24,12 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.Uberhero" >
         
+        
         <activity
             android:name="com.cm.uberhero.MainActivity"
             android:label="@string/app_name" 
             android:screenOrientation="portrait">
-            >
+            
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,6 +37,21 @@
             </intent-filter>
         </activity>
         
+        <service android:name="com.cm.rss.Service" />
+        
+        <activity
+            android:name="com.cm.rss.WebActivity"
+            android:label="Uber Hero Blog"
+            android:parentActivityName="MainActivity"
+            android:screenOrientation="portrait"> 
+             <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+               	<category android:name="android.intent.category.DEFAULT" />
+               	<category android:name="android.intent.category.BROWSABLE"/>
+               	<data android:scheme="http"/>
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.cm.uberhero.AlterEgoActivity"
             android:label="@string/alter"
@@ -41,6 +62,13 @@
         <activity
             android:name="com.cm.uberhero.InfoActivity"
             android:label="@string/infos"
+            android:parentActivityName="MainActivity"
+            android:screenOrientation="portrait">  
+        </activity>
+        
+        <activity
+            android:name="com.cm.uberhero.BatLegend"
+            android:label="Bat Legend"
             android:parentActivityName="MainActivity"
             android:screenOrientation="portrait">  
         </activity>
@@ -60,10 +88,13 @@
         </activity>
         
         <activity
-            android:name="com.cm.uberhero.RssFeedActivity"
+            android:name="com.cm.rss.RssFeedActivity"
             android:label="@string/rss"
             android:screenOrientation="portrait"
             android:parentActivityName="MainActivity">
+            <intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         
         <activity
@@ -81,11 +112,237 @@
         </activity>
         
         <activity
-            android:name="com.cm.uberhero.LogosActivity"
+            android:name="com.cm.logo.LogosActivity"
             android:label="@string/logo"
             android:screenOrientation="portrait"
             android:parentActivityName="MainActivity">
-        </activity>        
+        </activity>  
+        
+       
+    
+        <activity
+            android:name="com.cm.abouthero.AquamanActivity"
+            android:label="Aquaman"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+        <activity
+            android:name="com.cm.abouthero.BatmanActivity"
+            android:label="Batman"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity> 
+        
+        <activity
+            android:name="com.cm.abouthero.WonderWomanActivity"
+            android:label="Wonder Woman"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity> 
+        
+        <activity
+            android:name="com.cm.abouthero.SupermanActivity"
+            android:label="Superman"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity> 
+        
+        <activity
+            android:name="com.cm.abouthero.GreenLanternActivity"
+            android:label="Green Lantern"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+        <activity
+            android:name="com.cm.abouthero.FlashActivity"
+            android:label="The Flash"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.MartianMHActivity"
+            android:label="Martian Manhunter"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.BeastBoyActivity"
+            android:label="Beast Boy"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.CyborgActivity"
+            android:label="Cyborg"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.GreenArrowActivity"
+            android:label="Green Arrow"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.RobinActivity"
+            android:label="Robin"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.ShazamActivity"
+            android:label="Shazam"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.HawkgirlActivity"
+            android:label="Hawkgirl"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.StarFireActivity"
+            android:label="Hawkgirl"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.abouthero.NightwingActivity"
+            android:label="Nightwing"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.abouthero.RavenActivity"
+            android:label="Raven"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.logo.BatVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.cm.logo.AquamanVid"
+            android:label="Aquaman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.FlashVid"
+            android:label="Flash Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.HawkgirlVid"
+            android:label="Hawkgirl Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.MartianVid"
+            android:label="Martian Manhunter Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.NightwingVid"
+            android:label="Nightwing Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.SupermanVid"
+            android:label="Superman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.WonderwomanVid"
+            android:label="Wonder Woman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.GreenlanternVid"
+            android:label="Green Lantern Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.RobinVid"
+            android:label="Robin Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+         
+          <activity
+            android:name="com.cm.logo.GreenArrowVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.StarFireVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.BeastboyVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.RavenVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.ShazamVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity
+            android:name="com.cm.logo.CyborgVid"
+            android:label="Batman Logo Video"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
         
     </application>
 

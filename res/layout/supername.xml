@@ -1,16 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
-    android:background="#263c51">
-    
+    android:background="@drawable/batman_bg"
+    android:orientation="horizontal" >
 
-    <ImageView
-        android:id="@+id/imageView1"
+    <com.cm.uberhero.UHTextView
+        android:id="@+id/info"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:src="@drawable/supernameplaceholder" />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="@string/nameQues"
+        android:textColor="#00bc99"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/info"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Type Your Initials Here" />
+
+    <Button
+        android:id="@+id/nameBttn"
+        style="?android:attr/buttonStyleSmall"
+        android:background="@drawable/btn_cab_done_pressed_uberhero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/et"
+        android:text="Go" />
+
+    <com.cm.uberhero.UHTextView
+        android:id="@+id/answerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="43dp"
+        android:gravity="center"
+        android:text="@string/answer" />
+
+    <Button
+        android:id="@+id/legendBttn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/btn_cab_done_pressed_uberhero"
+        android:text="Legend" />
+
+    </RelativeLayout>
+    

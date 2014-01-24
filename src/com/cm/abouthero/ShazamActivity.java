@@ -1,15 +1,15 @@
-package com.cm.uberhero;
+package com.cm.abouthero;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-public class LogosActivity extends Activity{
-	
-	
+import com.cm.uberhero.R;
+
+public class ShazamActivity  extends Activity {
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.logo);
-}
-
+		setContentView(R.layout.shazamah);
+	}
 }

@@ -4,15 +4,173 @@
     android:layout_height="match_parent"
     android:orientation="vertical" 
     android:background="#263c51">
+
+    <ImageButton
+        android:id="@+id/greenarrowBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="62dp"
+        android:src="@drawable/greenarrow" />
+    <ImageButton
+        android:id="@+id/greenlanternBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="62dp"
+        android:src="@drawable/greenlantern" />
     
+    <ImageButton
+        android:id="@+id/supermanBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="62dp"
+        android:src="@drawable/superman" />
+    
+    <ImageButton
+        android:id="@+id/manhunterBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="62dp"
+        android:src="@drawable/manhunter" />
+    
+    <ImageButton
+        android:id="@+id/flashBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="162dp"
+        android:src="@drawable/flash" />
+    
+    <ImageButton
+        android:id="@+id/robinBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="162dp"
+        android:src="@drawable/robin" />
+    
+    <ImageButton
+        android:id="@+id/wonderwomanBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="162dp"
+        android:src="@drawable/wonderwoman" />
+    
+    <ImageButton
+        android:id="@+id/hawkgirlBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="162dp"
+        android:src="@drawable/hawkgirl" />
+    
+    <ImageButton
+        android:id="@+id/starfireBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="262dp"
+        android:src="@drawable/starfire" />
+   
+    <ImageButton
+        android:id="@+id/beastboyBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="262dp"
+        android:src="@drawable/beastboy" />
+    
+    <ImageButton
+        android:id="@+id/cyborgBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="262dp"
+        android:src="@drawable/cyborg" />
+    
+    <ImageButton
+        android:id="@+id/batmanBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="262dp"
+        android:src="@drawable/bat_man" />
+    
+    <ImageButton
+        android:id="@+id/aquamanBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="362dp"
+        android:src="@drawable/aquaman" />
+    
+    <ImageButton
+        android:id="@+id/shazamBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="362dp"
+        android:src="@drawable/shazam" />
+    
+    <ImageButton
+        android:id="@+id/nightwingBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="362dp"
+        android:src="@drawable/nightwing" />
+    
+    <ImageButton
+        android:id="@+id/ravenBttn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="362dp"
+        android:src="@drawable/raven" />
 
     <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:src="@drawable/gridplaceholder" />
-    
-    
+        android:id="@+id/google"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="442dp"
+        android:src="@drawable/google_ads" />
+
 </RelativeLayout>

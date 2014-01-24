@@ -1,14 +1,16 @@
-package com.cm.uberhero;
+package com.cm.abouthero;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-public class RssFeedActivity extends Activity{
-	
+import com.cm.uberhero.R;
+
+public class NightwingActivity extends Activity {
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.rss);
+		setContentView(R.layout.nightwingah);
 	}
-
 }
+
