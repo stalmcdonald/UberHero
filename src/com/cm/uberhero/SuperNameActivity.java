@@ -22,20 +22,20 @@ public class SuperNameActivity extends Activity implements OnClickListener{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.supername);
-		
+
 		//finding Views 
 		answers = (TextView)findViewById(R.id.answerText);
 		initials = (EditText)findViewById(R.id.et);
 		final Button b = (Button)findViewById(R.id.nameBttn);
 		final Button legendButton = (Button)findViewById(R.id.legendBttn);
-		
+
 		legendButton.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View legend) {
 				Intent i = new Intent(getApplicationContext(), BatLegend.class);
 				startActivity(i); 
 		}
-		
+
 	 });
 		b.setOnClickListener(new OnClickListener(){
 
@@ -59,20 +59,20 @@ public class SuperNameActivity extends Activity implements OnClickListener{
 				 // this hides the keyboard after user selects the predict button
                 InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         		   imm.hideSoftInputFromWindow(b.getWindowToken(), 0);
-				
+
         		   // getting text edited and appending it to a string
 				String string = initials.getText().toString();
 				answers.setText("I'm Batman.");
 				}
 			}
-			
+
 		});
 	}
-	
+
 
 	@Override
 	public void onClick(View arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 }
