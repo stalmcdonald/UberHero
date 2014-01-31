@@ -1,7 +1,7 @@
 UberHero - Superhero inspired application
 
 Developer Name- Crystal McDonald
-Application Version Number: 2
+Application Version Number: 3
 Github Private Repo Link: https://github.com/stalmcdonald/UberHero/tree/master
 
 Milestone 1 Features: Overall Uniform Application Theme
@@ -17,11 +17,16 @@ Milestone 2 Features: About Hero Feature with activity views
 					Superhero Naming Feature
 					RSS Feed with webview
 					Glossary Complete, scroll finished early
+					
+Milestone 3 Features: Starting Quiz
+					Quiz Menu
+					Quiz Questions
+					Quiz Results				
 										
 					
 Deliverable Contents: README File
 					Project APK
-					Updated Milestone Document (Pages & PDF)
+					Updated Milestone Documents 1,2 & 3 (Pages & PDF)
 					
 
 Usage Recommendations: For best results run on Nexus 4 or equivalent.

@@ -13,6 +13,12 @@ public class RssFeedActivity extends FragmentActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.rss);
+		
+		//Detects the network connection
+//  		_connected = com.cm.rss.ConnectionFile.getConnectionStatus(_context);
+//  		if(_connected){
+//  			Log.i("NETWORK CONNECTION ", com.cm.rss.ConnectionFile.getConnnectionType(_context));
+//  		}
 
 		//adds fragment container if not already availble
 		if (savedInstanceState == null) {

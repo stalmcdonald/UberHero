@@ -1,38 +1,47 @@
 
 package com.cm.uberhero;
 
-import com.cm.logo.LogosActivity;
-
-import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
-//import android.widget.Button;
 import android.view.MenuItem;
 
-public class MainActivity extends Activity implements OnClickListener{
+import com.cm.logo.LogosActivity;
 
+
+public class MainActivity extends Activity implements OnClickListener{
+	Context _context;
+	//checks network connection
+	Boolean _connected = false;//want to assume not connected
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
+		//buttons
+//				Button playBtn = (Button) findViewById(R.id.startBttn);
+//				playBtn.setOnClickListener(this);
+//				Button settingsBtn = (Button) findViewById(R.id.changeBttn);
+//				settingsBtn.setOnClickListener(this);
+
+	}
 		/*
 		 * 		Quiz Menu
 		 */
-		
-//		Button playBtn = (Button) findViewById(R.id.playBtn);
-//		playBtn.setOnClickListener(this);
-//		Button settingsBtn = (Button) findViewById(R.id.settingsBtn);
-//		settingsBtn.setOnClickListener(this);
-//		Button rulesBtn = (Button) findViewById(R.id.rulesBtn);
-//		rulesBtn.setOnClickListener(this);
-//		Button exitBtn = (Button) findViewById(R.id.exitBtn);
-//		exitBtn.setOnClickListener(this);
-	}
+				//setup switch case for buttons
+//				@Override
+//				public void onClick(View v) {
+//					Intent i;
+//					
+//					switch (v.getId()){
+//					case R.id.startBttn:
+						
+						
 
 		/*
 		 *      Action Bar
@@ -75,9 +84,17 @@ public class MainActivity extends Activity implements OnClickListener{
 				break;
 				
 			case R.id.rssFeed:
+				
 				Intent rssintent = new Intent(this, com.cm.rss.RssFeedActivity.class);
 				rssintent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 				startActivity(rssintent);
+				
+//				//Detects the network connection
+//	      		_connected = com.cm.rss.ConnectionFile.getConnectionStatus(_context);
+//	      		if(_connected){
+//	      			Log.i("NETWORK CONNECTION ", com.cm.rss.ConnectionFile.getConnnectionType(_context));
+//	      		}
+    	  		
 				break;
 				
 			case R.id.themeSongs:
@@ -123,6 +140,9 @@ public class MainActivity extends Activity implements OnClickListener{
 				}
 			}).show();
 		}
+		
+		
+			
 
 	@Override
 	public void onClick(DialogInterface arg0, int arg1) {

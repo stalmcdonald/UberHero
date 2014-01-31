@@ -28,6 +28,17 @@ public class Service extends IntentService {
 		super("Service");
 	}
 
+	//link to feed
+	public InputStream fetchIStream(String link) {
+		try {
+			URL url = new URL(link);
+			return url.openConnection().getInputStream();
+		} catch (IOException e) {
+			Log.w(Tag.TAG, "Exception", e);
+			return null;
+		}
+	}
+	
 	//parses the feed
 	@Override
 	protected void onHandleIntent(Intent intent) {
@@ -47,13 +58,4 @@ public class Service extends IntentService {
 		rr.send(0, bundle);
 	}
 
-	public InputStream fetchIStream(String link) {
-		try {
-			URL url = new URL(link);
-			return url.openConnection().getInputStream();
-		} catch (IOException e) {
-			Log.w(Tag.TAG, "Exception", e);
-			return null;
-		}
-	}
 }
