@@ -344,6 +344,20 @@
             android:parentActivityName="MainActivity">
         </activity>
         
+          <activity
+            android:name="com.cm.rss.ConnectionFile"
+            android:screenOrientation="portrait"
+            android:parentActivityName="MainActivity">
+        </activity>
+        
+          <activity android:name=".QuizActivity" />
+		<activity android:name=".RulesActivity" />
+		<activity android:name=".ScoreActivity" />
+		<activity android:name=".QuizChoiceActivity" />
+		<activity android:name=".AnswersActivity" />
+		<activity android:name= "UHQuizActivity"></activity>
+		<activity android:name= "com.cm.quiz.MyActivity"></activity>
+        
     </application>
 
 </manifest>

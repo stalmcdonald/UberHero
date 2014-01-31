@@ -5,23 +5,29 @@
     android:background="#263c51"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/changeBttn"
+        android:layout_width="220dip"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="17dp"
-        android:text="@string/quiz"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#00a083" />
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/uberbutton"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="Quiz Menu"
+        android:textColor="#ffffff" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:src="@drawable/mainplaceholder" />
-
+    <Button
+        android:id="@+id/startBttn"
+        android:layout_width="220dip"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/changeBttn"
+        android:layout_alignLeft="@+id/changeBttn"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/uberbutton"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="Start Quiz"
+        android:textColor="#ffffff" />
 </RelativeLayout>

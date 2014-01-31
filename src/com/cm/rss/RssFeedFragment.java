@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.ResultReceiver;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,7 +16,6 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
 import com.cm.uberhero.R;
 
@@ -28,7 +26,7 @@ public class RssFeedFragment extends Fragment implements OnItemClickListener {
 	private View v;
 	Context _context;
 	//checks network connection
-		 Boolean _connected = false;//want to assume not connected
+	Boolean _connected = false;//want to assume not connected
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -85,8 +83,6 @@ public class RssFeedFragment extends Fragment implements OnItemClickListener {
 		//goes to the web browser menu and shows blog post
 			Intent webIntent = new Intent(Intent.ACTION_VIEW, uri);
 			startActivity(webIntent);
-		
-		
 		
 	}
 	

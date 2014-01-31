@@ -19,24 +19,6 @@ public class BlogBaseAdapter extends BaseAdapter {
 		this.context = context;
 	}
 
-	//get number of blog items
-	@Override
-	public int getCount() {
-		return listItems.size();
-	}
-
-	//gets the position of the items in the list
-	@Override
-	public Object getItem(int position) {
-		return listItems.get(position);
-	}
-
-	//gets the id of the item
-	@Override
-	public long getItemId(int id) {
-		return id;
-	}
-
 	//gets the view of the item selected 
 	@Override
 	public View getView(int position, View blogView, ViewGroup parent) {
@@ -56,4 +38,22 @@ public class BlogBaseAdapter extends BaseAdapter {
 	static class ViewHolder {
 		TextView itemTitle;
 	}
+	
+	//get number of blog items
+		@Override
+		public int getCount() {
+			return listItems.size();
+		}
+
+		//gets the position of the items in the list
+		@Override
+		public Object getItem(int position) {
+			return listItems.get(position);
+		}
+
+		//gets the id of the item
+		@Override
+		public long getItemId(int id) {
+			return id;
+		}
 }

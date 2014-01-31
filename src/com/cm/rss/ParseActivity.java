@@ -57,6 +57,17 @@ public class ParseActivity {
 		return items;
 	}
 
+	// Get the text of title and link
+		private String interpretText(XmlPullParser parser) throws IOException, XmlPullParserException {
+			String result = "";
+			if (parser.next() == XmlPullParser.TEXT) {
+				result = parser.getText();
+				parser.nextTag();
+			}
+			return result;
+		}
+		
+		//link
 	private String intepretLink(XmlPullParser parser) throws XmlPullParserException, IOException {
 		parser.require(XmlPullParser.START_TAG, spaces, "link");
 		String link = interpretText(parser);
@@ -64,6 +75,7 @@ public class ParseActivity {
 		return link;
 	}
 
+	//title
 	private String interpretTitle(XmlPullParser parser) throws XmlPullParserException, IOException {
 		parser.require(XmlPullParser.START_TAG, spaces, "title");
 		String title = interpretText(parser);
@@ -71,13 +83,4 @@ public class ParseActivity {
 		return title;
 	}
 
-	// Get the text of title and link
-	private String interpretText(XmlPullParser parser) throws IOException, XmlPullParserException {
-		String result = "";
-		if (parser.next() == XmlPullParser.TEXT) {
-			result = parser.getText();
-			parser.nextTag();
-		}
-		return result;
-	}
 }

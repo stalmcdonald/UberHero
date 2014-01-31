@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:gravity="center_horizontal"
+	android:background="#263c51">
+
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:paddingTop="5dip" 
+		android:paddingBottom="5dip"
+		android:gravity="center_horizontal">
+
+		<RadioGroup android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:orientation="vertical"
+			android:id="@+id/group1">
+			
+			<TextView android:layout_width="fill_parent" 
+			    android:text="Choose A Quiz to take:"
+				android:layout_height="wrap_content"
+				android:gravity="center" 
+				android:textColor="#ffffff"
+				android:textStyle="bold" 
+				android:id="@+id/question"/>
+			
+			<RadioButton android:checked="false" 
+			    android:id="@+id/superQuiz" 
+			    android:gravity="center"  
+			    android:text="Which Superhero Are you?"/>
+			
+			<RadioButton android:checked="false" 
+			    android:id="@+id/triviaQuiz"  
+			    android:gravity="center" 
+			    android:text="Superhero Trivia" />
+			
+			<RadioButton android:checked="false" 
+			    android:id="@+id/villainQuiz" 
+			    android:gravity="center"  
+			    android:text="Are you a Villain?" />
+			
+		</RadioGroup>
+
+	</LinearLayout>
+	
+	
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:paddingTop="5dip" 
+		android:paddingBottom="5dip"
+		android:gravity="center_horizontal">
+
+		<Button android:text="Submit" 
+		    android:id="@+id/submitBttn"
+			android:layout_width="80dip" 
+			android:layout_alignParentRight="true"
+			android:layout_height="wrap_content" 
+			android:background="@drawable/uberbutton"
+			android:paddingTop="5dip" 
+			android:paddingBottom="5dip"
+			android:textColor="#ffffff" />
+
+	</LinearLayout>
+
+</LinearLayout>
